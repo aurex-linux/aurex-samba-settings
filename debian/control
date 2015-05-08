@@ -1,0 +1,14 @@
+Source: aurex-samba-settings
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: aurex-samba-teacher-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: samba configuration for teachers PCs
+ The package configures smb.conf in the teacher's PCS 
+ in order to allow it to share the folder of the 
+ PC images to restore the classroom's computers
